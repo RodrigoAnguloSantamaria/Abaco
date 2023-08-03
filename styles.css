@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.play{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abaco{
+    display: grid;
+    grid-template-columns: 10px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 10px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px  ;
+ 
+    margin-top: 30px;
+   
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & p{
+        text-align: justify;
+        width: 90%;
+    }
+}
+.border{
+    background-color: brown;
+}
+.wire{
+   background-color: black;
+   height: 5px;
+   align-self: center;
+}
+.item{
+    background-color: blue;
+    border-radius: 50%;
+    width: 100%;
+    
+}
+.base{
+    background-color: brown;
+    width: 300px;
+    height: 10px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    
+}
+button{
+    margin: 10px;
+}
